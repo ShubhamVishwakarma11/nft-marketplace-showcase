@@ -5,7 +5,7 @@ const Button = ({assetUrl, link}) => {
   return (
     <div 
       className={styles.btnBlack}
-      onClick={() => window.open(link, "_blank")}
+      onClick={() => window.open("https://expo.dev/@pikachu_65/nft-marketplace?serviceType=classic&distribution=expo-go", "_blank")}
     >
       <img src={assetUrl} alt="expo-icon" className={styles.btnIcon}/>
       <div className='flex flex-col justify-start ml-4'>
